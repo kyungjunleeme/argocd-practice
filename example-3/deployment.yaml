@@ -1,5 +1,6 @@
 apiVersion: apps/v1
 kind: Deployment
+namespace: example-3
 metadata:
   name: example-3-nginx
 spec:
